@@ -121,7 +121,7 @@ From our previous scan we can see that:
 
 > whoami
 ---
-- We have succefully pawned the machine. We are Root. 
+- We have successfully pawned the machine. We are Root. 
 
 ## NB: There are other methods to obtain root like using the "Open2Fuckv2.c".
 
