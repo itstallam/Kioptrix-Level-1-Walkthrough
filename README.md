@@ -66,10 +66,15 @@ From our previous scan we can see that:
 - We try to use **enum4linux** but we don't get the smb version running. We try **Metasploit *ramework**
 ### Commands
 > msf > search smb version detection
+---
 > msf > use 0
+---
 > msf > show options
+---
 > msf > set RHOST 192.168.56.110
+---
 > msf > run
+---
 > msf > exit
 ---
 
