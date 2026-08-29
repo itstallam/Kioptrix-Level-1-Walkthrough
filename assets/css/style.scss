@@ -1,1 +1,124 @@
+---
+---
 
+@import "jekyll-theme-hacker";
+
+/* DARK OVERRIDE: Hacker Terminal */
+
+html,
+body {
+  background-color: #050a05 !important;
+  color: #e0f0e0 !important;
+  font-family: 'IBM Plex Mono', 'Courier New', monospace !important;
+}
+
+.container,
+.wrapper,
+#main-content,
+.page-content,
+.markdown-body,
+.post-content,
+article,
+section {
+  background: #0a140a !important;
+  background-color: #0a140a !important;
+  color: #e0f0e0 !important;
+  border: 1px solid #112211 !important;
+}
+
+h1, h2, h3, h4, h5, h6,
+.project-name,
+.page-header .project-name,
+header h1, header h2,
+.post-title {
+  color: #33ff33 !important;
+  font-family: 'VT323', 'IBM Plex Mono', monospace !important;
+}
+
+a,
+.markdown-body a,
+.post-content a {
+  color: #33ff33 !important;
+  text-decoration: none !important;
+}
+a:hover,
+.markdown-body a:hover {
+  color: #ffb000 !important;
+  text-decoration: underline !important;
+}
+
+pre, code,
+.highlight pre,
+.highlight code,
+.markdown-body pre,
+.markdown-body code {
+  background: #080f08 !important;
+  background-color: #080f08 !important;
+  border: 1px solid #112211 !important;
+  color: #33ff33 !important;
+  font-family: 'IBM Plex Mono', 'Fira Code', monospace !important;
+}
+
+table,
+.markdown-body table {
+  background: #0a140a !important;
+  background-color: #0a140a !important;
+  border: 1px solid #112211 !important;
+}
+th, td,
+.markdown-body th,
+.markdown-body td {
+  border: 1px solid #112211 !important;
+}
+th,
+.markdown-body th {
+  background: #080f08 !important;
+  background-color: #080f08 !important;
+  color: #33ff33 !important;
+}
+
+hr,
+.markdown-body hr {
+  border: 0 !important;
+  border-top: 1px solid #112211 !important;
+}
+
+.btn,
+button,
+.markdown-body .btn {
+  background: #0a140a !important;
+  background-color: #0a140a !important;
+  border: 1px solid #33ff33 !important;
+  color: #33ff33 !important;
+}
+.btn:hover,
+button:hover {
+  background: #33ff33 !important;
+  background-color: #33ff33 !important;
+  color: #050a05 !important;
+}
+
+::selection {
+  background: #33ff33 !important;
+  color: #050a05 !important;
+}
+
+ul, ol, li,
+.markdown-body ul,
+.markdown-body ol,
+.markdown-body li {
+  color: #e0f0e0 !important;
+}
+
+p, span, div,
+.markdown-body p,
+.markdown-body span {
+  color: #e0f0e0 !important;
+}
+
+.page-header,
+header {
+  background: #0a140a !important;
+  background-color: #0a140a !important;
+  border-bottom: 1px solid #112211 !important;
+}
