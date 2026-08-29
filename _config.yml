@@ -1,9 +1,15 @@
-remote_theme: b2a3e8/jekyll-theme-console
-plugins:
-  - jekyll-remote-theme
-
-title: KIOPTRIX LEVEL 1
-description: Kioptrix Level 1 Penetration Testing Walkthrough — Boot to Root.
+theme: jekyll-theme-hacker
+title: "KIOPTRIX LEVEL 1"
+description: "Kioptrix Level 1 Penetration Testing Walkthrough — Boot to Root."
+show_downloads: false
 baseurl: "/Kioptrix-Level-1-Walkthrough"
+url: ""
 
-style: dark
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+author:
+  name: itstallam
+  url: https://github.com/itstallam
