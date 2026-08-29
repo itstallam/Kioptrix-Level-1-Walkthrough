@@ -1,124 +1,99 @@
 ---
 ---
 
-@import "jekyll-theme-hacker";
+@import "jekyll-theme-tactile";
 
-/* DARK OVERRIDE: Hacker Terminal */
+/* DARK OVERRIDE: Tactile Noir (matches real tactile theme markup) */
 
 html,
 body {
-  background-color: #050a05 !important;
-  color: #e0f0e0 !important;
-  font-family: 'IBM Plex Mono', 'Courier New', monospace !important;
+  background-color: #0a0908 !important;
+  color: #e8e2d9 !important;
+  font-family: 'Source Serif 4', 'Merriweather', serif !important;
 }
 
-.container,
-.wrapper,
-#main-content,
-.page-content,
-.markdown-body,
-.post-content,
-article,
-section {
-  background: #0a140a !important;
-  background-color: #0a140a !important;
-  color: #e0f0e0 !important;
-  border: 1px solid #112211 !important;
+#container,
+#container .inner {
+  background: #0a0908 !important;
+  background-color: #0a0908 !important;
 }
 
-h1, h2, h3, h4, h5, h6,
-.project-name,
-.page-header .project-name,
-header h1, header h2,
-.post-title {
-  color: #33ff33 !important;
-  font-family: 'VT323', 'IBM Plex Mono', monospace !important;
+header,
+header h1,
+header h2 {
+  color: #d4a574 !important;
+  background: transparent !important;
+}
+header h1 {
+  font-family: 'Cinzel', 'Playfair Display', Georgia, serif !important;
 }
 
-a,
-.markdown-body a,
-.post-content a {
-  color: #33ff33 !important;
+#downloads .button,
+a.button {
+  background: #141210 !important;
+  border: 1px solid #d4a574 !important;
+  color: #d4a574 !important;
+}
+#downloads .button:hover,
+a.button:hover {
+  background: #d4a574 !important;
+  color: #0a0908 !important;
+}
+
+hr {
+  border: 0 !important;
+  border-top: 1px solid #2a2520 !important;
+}
+
+#main_content {
+  background: #141210 !important;
+  background-color: #141210 !important;
+  color: #e8e2d9 !important;
+  border: 1px solid #2a2520 !important;
+  padding: 20px !important;
+}
+
+#main_content h1, #main_content h2, #main_content h3,
+#main_content h4, #main_content h5, #main_content h6 {
+  color: #d4a574 !important;
+  font-family: 'Cinzel', 'Playfair Display', Georgia, serif !important;
+}
+
+#main_content a {
+  color: #d4a574 !important;
   text-decoration: none !important;
 }
-a:hover,
-.markdown-body a:hover {
-  color: #ffb000 !important;
+#main_content a:hover {
+  color: #8b5cf6 !important;
   text-decoration: underline !important;
 }
 
-pre, code,
-.highlight pre,
-.highlight code,
-.markdown-body pre,
-.markdown-body code {
-  background: #080f08 !important;
-  background-color: #080f08 !important;
-  border: 1px solid #112211 !important;
-  color: #33ff33 !important;
+#main_content pre,
+#main_content code {
+  background: #0f0d0b !important;
+  border: 1px solid #2a2520 !important;
+  color: #d4a574 !important;
   font-family: 'IBM Plex Mono', 'Fira Code', monospace !important;
 }
 
-table,
-.markdown-body table {
-  background: #0a140a !important;
-  background-color: #0a140a !important;
-  border: 1px solid #112211 !important;
+#main_content table {
+  background: #141210 !important;
+  border: 1px solid #2a2520 !important;
 }
-th, td,
-.markdown-body th,
-.markdown-body td {
-  border: 1px solid #112211 !important;
+#main_content th, #main_content td {
+  border: 1px solid #2a2520 !important;
 }
-th,
-.markdown-body th {
-  background: #080f08 !important;
-  background-color: #080f08 !important;
-  color: #33ff33 !important;
-}
-
-hr,
-.markdown-body hr {
-  border: 0 !important;
-  border-top: 1px solid #112211 !important;
-}
-
-.btn,
-button,
-.markdown-body .btn {
-  background: #0a140a !important;
-  background-color: #0a140a !important;
-  border: 1px solid #33ff33 !important;
-  color: #33ff33 !important;
-}
-.btn:hover,
-button:hover {
-  background: #33ff33 !important;
-  background-color: #33ff33 !important;
-  color: #050a05 !important;
+#main_content th {
+  background: #0f0d0b !important;
+  color: #d4a574 !important;
 }
 
 ::selection {
-  background: #33ff33 !important;
-  color: #050a05 !important;
+  background: #d4a574 !important;
+  color: #0a0908 !important;
 }
 
-ul, ol, li,
-.markdown-body ul,
-.markdown-body ol,
-.markdown-body li {
-  color: #e0f0e0 !important;
-}
-
-p, span, div,
-.markdown-body p,
-.markdown-body span {
-  color: #e0f0e0 !important;
-}
-
-.page-header,
-header {
-  background: #0a140a !important;
-  background-color: #0a140a !important;
-  border-bottom: 1px solid #112211 !important;
+footer {
+  color: #8a8378 !important;
+  background: transparent !important;
 }
